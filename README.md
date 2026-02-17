@@ -37,3 +37,17 @@ uv pip install jupyterlab numpy pandas pyarrow matplotlib seaborn
 
 ## Data Set Description
 
+*Seaborn: Planets [Link Here](https://github.com/mwaskom/seaborn-data/blob/master/planets.csv)
+
+**Total records:** 1,035
+
+This dataset contains information about exoplanets discovered using various detection methods.
+
+| Column Name     | Description                                      |
+|----------------|--------------------------------------------------|
+| method          | Method used to detect the planet (e.g., Radial Velocity, Transit) |
+| number          | Number of planets discovered in the system      |
+| orbital_period  | Orbital period of the planet in days            |
+| mass            | Mass of the planet (in Jupiter masses)          |
+| distance        | Distance of the planetary system from Earth (in parsecs) |
+| year            | Year the planet was discovered                  |
